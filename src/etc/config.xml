@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <simple_shipping>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>\Acaldeira\SimpleShipping\Model\Carrier\Method</model>
+                <name>Acaldeira Simple Shipping</name>
+                <price>0.99</price>
+                <title>Acaldeira Sample Shipping</title>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <message>You are amazing! :)</message>
+            </simple_shipping>
+        </carriers>
+    </default>
+</config>

@@ -1,0 +1,30 @@
+{
+  "name": "acaldeira/simpleShipping",
+  "description": "Skeleton shipping module.",
+  "authors": [
+    {
+      "name": "Acaldeira",
+      "email": "thiagolimaufrj@gmail.com",
+      "homepage": "http://www.acaldeira.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|^7.0.6",
+    "magento/magento-composer-installer": "*"
+  },
+  "suggest": {
+  },
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "license": [
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Acaldeira\\SimpleShipping\\": "src/"
+    }
+  }
+}
