@@ -4,7 +4,13 @@ Magento 2 Acaldeira Simple Shipping Module
 
 Description
 -----------
-This module is a skeleton for building a Magento 2 shipment module. 
+This module is a skeleton for building a Magento 2 shipment module.
+ 
+ Configuration: Stores > Configuration > Sales > Shipping Method
+ 
+ ![Shipping Configuration](https://image.prntscr.com/image/BooKNAdpS462xBhe94YfYg.png "Shipping Configuration")
+
+ ![Shipping Result](https://image.prntscr.com/image/vmJ-wbSSSWCGFYOkM8QfOg.png "Shipping Result")
 
 Compatibility
 -------------
